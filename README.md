@@ -13,6 +13,32 @@ Configuration is currently done using environmental variables (I use [direnv](ht
 * LIVEJOURNAL_USERNAME
 * LIVEJOURNAL_PASSWORD
 
+TODO
+----
+
+Pull in more info:
+
+* comments
+* security mapping
+* properties
+** moods (current_mood)
+** pictures (picture_keyword)
+** music (current_music)
+** etc
+
+Queries
+-------
+
+### Find all the properties
+
+```javascript
+db.<username>.mapReduce(
+  function() { Object.keys(this.props).forEach(function(prop) { emit(prop, 1); }) },
+  function(key, values) { return Array.sum(values); },
+  { out: "properties" }
+)
+```
+
 License
 -------
 
