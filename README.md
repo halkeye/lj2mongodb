@@ -39,6 +39,12 @@ db.<username>.mapReduce(
 )
 ```
 
+Thanks
+------
+
+* Challenge Response and Some other hints - https://github.com/ghewgill/ljdump/blob/master/ljdump.py
+* Lastsync flow - http://www.livejournal.com/doc/server/ljp.csp.entry_downloading.html
+
 License
 -------
 
