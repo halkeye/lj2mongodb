@@ -15,5 +15,18 @@
     "livejournal": "0.0.4",
     "moment": "^2.8.3",
     "mongodb": "^1.4.10"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halkeye/lj2mongodb.git"
+  },
+  "keywords": [
+    "livejournal",
+    "mongodb"
+  ],
+  "bugs": {
+    "url": "https://github.com/halkeye/lj2mongodb/issues"
+  },
+  "homepage": "https://github.com/halkeye/lj2mongodb"
 }
