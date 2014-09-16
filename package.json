@@ -1,13 +1,14 @@
 {
   "name": "lj2mongodb",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Little hack to convert livejournal posts to mongodb",
   "main": "index.js",
   "scripts": {
+    "start": "nodejs index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gavin Mogan <npm@halkeye.net> (http://www.halkeye.net/)",
-  "license": "ISC",
+  "author": "Gavin Mogan <gavin@gavinmogan.com> (http://www.halkeye.net/)",
+  "license": "MIT",
   "dependencies": {
     "MD5": "^1.2.1",
     "async": "^0.9.0",
